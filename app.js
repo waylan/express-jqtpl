@@ -17,6 +17,7 @@ app.configure(function(){
   app.use(express.logger("tiny"));
   app.use(express.bodyParser());
   app.use(express.methodOverride());
+  app.use(express.favicon(__dirname + '/public/images/favicon.ico'));
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
 });

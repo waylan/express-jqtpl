@@ -13,6 +13,10 @@ fresh copy of this template to install dependencies.
 Run `node app.py` to serve the "Welcome to Express" page at
 "http://localhost:3000/".
 
+Note that the 'logger' and 'favicon' middleware has been
+added as well. Just comment out the appropriate lines in
+'app.js' to disable.
+
 [Express]: http://expressjs.com/
 [Node.js]: http://nodejs.org
 [jqtpl]: https://github.com/kof/node-jqtpl
